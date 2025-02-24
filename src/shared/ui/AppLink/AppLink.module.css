@@ -1,0 +1,22 @@
+.appLink {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 23px;
+  color: var(--text-color);
+  font: var(--font);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.appLink:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.appLink:active {
+  background-color: var(--active-link-color);
+}
+
+.active {
+  background-color: var(--active-link-color);
+  color: #fff;
+}

@@ -1,0 +1,21 @@
+:root {
+  --font-family-main: "Roboto", "Times New Roman", serif;
+
+  --font-size: 14px;
+  --font-line: 21px;
+  --font-weight: 400;
+
+  --font: var(--font-weight) var(--font-size) / var(--font-line)
+    var(--font-family-main);
+
+  /* Размеры */
+  --header-height: 64px;
+
+  /* Отступы */
+  --padding-container-x: 62px;
+
+  /* Цвета */
+  --header-color: #2196f3;
+  --active-link-color: #1e88e5;
+  --text-color: #ffffff;
+}

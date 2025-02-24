@@ -1,0 +1,7 @@
+.header {
+  margin-bottom: 48px;
+  padding-left: var(--padding-container-x);
+  height: var(--header-height);
+  background-color: var(--header-color);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}

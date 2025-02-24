@@ -1,0 +1,35 @@
+.catsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
+  gap: 48px;
+  justify-items: center;
+  max-width: 100%;
+  margin-bottom: 48px;
+}
+
+.cardConteiner {
+  width: 224px;
+  height: 224px;
+  position: relative;
+}
+
+.cardConteiner:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.6);
+}
+
+.gtb {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 48px;
+  height: 48px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.cardConteiner:hover .gtb {
+  opacity: 1;
+  visibility: visible;
+}
